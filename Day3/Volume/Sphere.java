@@ -10,7 +10,7 @@ public class Sphere {
             int radius = sc.nextInt();
 
             float volume = (4 * 3.14f * radius * radius * radius) / 3 ;
-            System.out.println("Volume of cylinder : " + volume);
+            System.out.println("Volume of sphere : " + volume);
 
 
     }
