@@ -1,0 +1,22 @@
+package assignment.two.intermediate;
+
+import java.util.Scanner;
+
+public class CommisionPercentage {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter product : ");
+        String product = sc.next();
+
+        System.out.print("Enter price : ");
+        int price = sc.nextInt();
+
+        System.out.print("Enter commision : ");
+        int commision = sc.nextInt();
+
+        int commisionPercent = (commision * 100) / price;
+        System.out.println("You got " + commisionPercent + " % commision on " + product);
+
+    }
+}
