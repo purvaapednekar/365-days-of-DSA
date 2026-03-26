@@ -14,7 +14,7 @@ public class CGPA {
         for (int i = 1; i <= n ; i++) {
             System.out.println("Enter grade point of : " + "sub" + i);
             double grade = sc.nextDouble();
-            sum += 0;
+            sum += grade;
             
         }
         
